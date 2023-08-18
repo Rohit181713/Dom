@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+</head>
+<body>
+	<table id="r">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+<script type="text/javascript">
+	// let h=document.getElementsByTagName('td');
+	// h[0].innerText='1';
+	// h[1].innerText='2';
+	// h[2].innerText='3';
+	// h[3].innerText='4';
+	// h[4].innerText='5';
+	// h[5].innerText='6';
+	// h[6].innerText='7';
+	// h[7].innerText='8';
+	// h[8].innerText='9';
+	let n=document.getElementById('r');
+	let h=document.getElementsByTagName('td');
+	var k=9;
+	 for(let i = 0;h.length;i++)
+	 {
+	 	h[i].innerText=k;
+	 	k--;
+	 }
+	n.border='2px';
+</script>
+
+</body>
+</html>
